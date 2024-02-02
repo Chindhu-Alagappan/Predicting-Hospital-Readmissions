@@ -1,0 +1,11 @@
+# packages need to be installed to run the project
+# To install use command pip install -r requirement.txt
+
+pandas 
+numpy 
+seaborn 
+matplotlib 
+plotly 
+scikit-learn 
+imbalanced-learn 
+yellowbrick
