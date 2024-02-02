@@ -3,7 +3,7 @@ This is an open-source project repo which deals with predicting if the patients 
 
 ## Introduction
 The primary goal of this project is to build a predictive model that can identify patients who are at high risk of hospital readmission within 30 days after their initial discharge.  
-This project aims at ETL of data from the csv file, Cleaning, Performing EDA, Data Visualization, Feature Extraction and Classification Model Building using the Machine Learning algorithms available.
+This project involves ETL of data from the csv file, cleaning, performing EDA, data visualization, feature extraction and classification model building using the machine learning algorithms available.
 
 ## Table of Contents
 1. Pre-requisites
@@ -44,7 +44,7 @@ pip install yellowbrick
 ## Usage
 Clone the repo from the below mentioned link.  
 [Predicting-Hospital-Readmissions](https://github.com/Chindhu-Alagappan/Predicting-Hospital-Readmissions.git)   
-Install packages from "requirement.txt" 
+Install packages from "requirement.txt".  
 Run the "Hospital_Readmissions.ipynb" using jupyter notebook.
 
 ## Column Details 
@@ -86,10 +86,12 @@ Run the "Hospital_Readmissions.ipynb" using jupyter notebook.
 
 ## Model Evaluation
 - All the models mentioned above are evaluated to predict the train and test metrics.
-![Training Evalustion Metrics](https://github.com/Chindhu-Alagappan/Predicting-Hospital-Readmissions/blob/09572a33c94a6c093dd261d59e31e809501e0d16/Metrics/Training_Eval_Metrics.png)  
-  
-![Testing Evalustion Metrics](https://github.com/Chindhu-Alagappan/Predicting-Hospital-Readmissions/blob/09572a33c94a6c093dd261d59e31e809501e0d16/Metrics/Testing_Eval_Metrics.png)  
+- Training Evaluation Metrics  
+![Training Evaluation Metrics](https://github.com/Chindhu-Alagappan/Predicting-Hospital-Readmissions/blob/09572a33c94a6c093dd261d59e31e809501e0d16/Metrics/Training_Eval_Metrics.png)  
 
+- Testing Evaluation Metrics  
+![Testing Evaluation Metrics](https://github.com/Chindhu-Alagappan/Predicting-Hospital-Readmissions/blob/09572a33c94a6c093dd261d59e31e809501e0d16/Metrics/Testing_Eval_Metrics.png)  
+  
 - From the above images, it is clear that KNN provides the highest accuracy and precision score when compared to others.
 - Hyper Parameter Tuning - Tuning the params of KNN has a posibility to increase the accuracy rate, so applied it. Unfortunately, the model has undergone an overfitting problem, which in turn REDUCED the testing accuracy. So, neglecting it.  
   
